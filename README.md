@@ -2,6 +2,8 @@
 
 This is a theme for Jekyll based on [Nord](https://www.nordtheme.com).
 
+![](screenshot.png)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:

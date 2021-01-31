@@ -28,7 +28,11 @@ Or install it yourself as:
 
 ## Usage
 
-All colors and styles are defined in the sass file. The layout is the default, based on the minima theme.
+All colors and styles are defined in the sass file. The layout is the default, inspired by the minima theme.
+
+Create posts in your site's _posts directory.
+
+Create top level naviation pages in the root directory. List them in the header_pages section of your _config.yml file.
 
 ## Contributing
 

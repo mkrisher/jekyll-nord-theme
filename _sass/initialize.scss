@@ -675,6 +675,7 @@ table {
   @include relative-font-size(1.25);
   text-align: center;
   margin-bottom: 35px;
+  font-style: italic;
 }
 
 .post-list-heading {
@@ -721,7 +722,7 @@ table {
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   overflow-y: hidden;
-  width: 100%;
+  width: 90%;
   margin-top: 0px;
   margin-right: auto;
   padding: 2em;
@@ -736,6 +737,10 @@ table {
   transition-property: box-shadow, background-color;
 }
 
+.show-links a {
+  color: #nord11;
+  text-decoration: underline;
+}
 
 /**
  * Posts

@@ -5,3 +5,5 @@
 _site
 Gemfile.lock
 .DS_Store
+about.md
+_posts/*

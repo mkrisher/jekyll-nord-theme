@@ -9,9 +9,6 @@ layout: default
 
   {{ content }}
 
-  <h2 class="page-heading">{{ site.heading }}</h2>
-  <h2 class="page-subheading">{{ site.subheading }}</h2>
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}

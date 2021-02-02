@@ -434,11 +434,14 @@ table {
 .site-header {
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-  top: 10px;
   width: 100%;
+}
 
-  // Positioning context for the mobile navigation icon
-  position: absolute;
+.header-content {
+  background-color: #fbfbfc;
+  padding: 10px;
+  padding-top: 20px;
+  width: 100%;
 }
 
 .site-title {
@@ -453,8 +456,8 @@ table {
   }
 
   &,
-  &:visited {
-    color: $site-title-color;
+  &:hover {
+    text-decoration: none;
   }
 }
 
@@ -508,12 +511,18 @@ table {
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+    border-bottom: solid 1px $nord0;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
     margin-left: 20px;
+
+    &,
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   @media screen and (min-width: $on-medium) {

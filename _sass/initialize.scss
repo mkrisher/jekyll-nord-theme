@@ -428,6 +428,15 @@ table {
   }
 }
 
+.logo {
+  position: relative;
+  top: 65px;
+  left: calc(#{$content-width} - (#{$spacing-unit} * 2) - 200px);
+  width: 140px;
+  height: 140px;
+  clip-path: circle(70px at center);
+}
+
 /**
  * Site header
  */
